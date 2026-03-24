@@ -19,7 +19,7 @@ on:
         - name: install uv
           uses: astral-sh/setup-uv@v7
           with:
-            version: '0.11.0'
+            version: '0.10.10'
         
         - name: instalar requerimientos
           run: uv sync
