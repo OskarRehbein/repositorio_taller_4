@@ -198,7 +198,7 @@ dev = [{ name = "ruff", specifier = ">=0.15.5" }]
 
 [[package]]
 name = "typer"
-version = "0.24.1"
+version >= "0.20.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "annotated-doc" },
