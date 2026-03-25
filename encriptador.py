@@ -25,8 +25,8 @@ def main(
     llave : str
         Contraseña secreta; se deriva internamente a 32 bytes con SHA-256.
     """
-    Resultado = encriptar(texto, llave)
-    console.print(Panel(f"[bold green]{Resultado}[/]", title="Texto Encriptado", expand=False))
+    resultado = encriptar(texto, llave)
+    console.print(Panel(f"[bold green]{resultado}[/]", title="Texto Encriptado", expand=False))
 
 
 if __name__ == "__main__":

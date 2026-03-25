@@ -1,4 +1,3 @@
-import pytest
 from aes_utils import encriptar
 
 
